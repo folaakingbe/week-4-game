@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector Game
+    </title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>
+                    CrystalsCollector
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="instructions">
+                    <p>
+                        You will be given a random number at the start of the game.
+                    </p>
+                    <p>
+                        There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+                    </p>
+                    <p>
+                        You win the game by matching your total score to random number, you lose the game if your total score goes above the random
+                        number.
+                    </p>
+                    <p>
+                        The value of each crystal is hidden from you until you click it.
+                    </p>
+                    <p>
+                        Each time when the game starts, the game will change the value of each crystal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="points">
+                    <span id="targetPoints"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="score">
+                    <h2>
+                        <span id="message"></span>
+                    </h2>
+                    <h2>
+                        Wins:
+                        <span id="wins"></span>
+                    </h2>
+                    <h2>
+                        Losses:
+                        <span id="losses"></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="jewels">
+                <img id="jewel-button1" class="jewel-button" src="./assets/images/ruby.jpg" alt="Jewel 1">
+                <img id="jewel-button2" class="jewel-button" src="./assets/images/sapphire.jpg" alt="Jewel 2">
+                <img id="jewel-button3" class="jewel-button" src="./assets/images/emerald.jpg" alt="Jewel 3">
+                <img id="jewel-button4" class="jewel-button" src="./assets/images/topaz.jpg" alt="Jewel 4">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="points">
+                    <p>Your total score is:</p>
+                    <span id="yourPoints"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>

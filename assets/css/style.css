@@ -1,0 +1,38 @@
+body {
+    background-image: url('../images/diagmonds.png');
+}
+
+h1 {
+    background-color: white;
+    font-weight: bold;
+}
+
+.instructions {
+    background-color: red;
+    font-weight: bold;
+}
+
+.points {
+    background-color: yellow;
+    /* height: 100px; */
+    color: black;
+}
+
+.score {
+    float: left;
+    background-color: aquamarine;
+    /* height: 100px; */
+}
+
+#yourPoints, #targetPoints {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.jewel-button {
+    height: 150px;
+    width: 150px;
+}
